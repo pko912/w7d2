@@ -22,6 +22,7 @@ module DemoProject
   class Application < Rails::Application
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 7.0
+    config.action_controller.default_protect_from_forgery = false
 
     # Configuration for the application, engines, and railties goes here.
     #
